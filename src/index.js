@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 var requests = require('requests');
 const hbs = require("hbs");
-
+const port = process.env.PORT || 8000
 app.set('view engine', 'hbs');
 
 const hbspath = path.join(__dirname, "../template/partials")
