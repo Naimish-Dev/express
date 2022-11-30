@@ -1,0 +1,24 @@
+body{
+
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+background-color: yellow;
+margin: 10px;
+}
+
+h1{
+    background-color: aqua;
+}
+.footer{
+    height: 40px;
+    background-color: brown !important;
+    color: white;
+    text-align: center;
+    margin-top: auto ;
+}
+
+footer p{
+    line-height: 40px;
+    font-weight: 700;
+}
