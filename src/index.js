@@ -43,6 +43,6 @@ app.get("*", (req, res) => {
     res.render("404")
 })
 
-app.listen("8000", () => {
+app.listen({port}, () => {
     console.log("server runing")
 })
